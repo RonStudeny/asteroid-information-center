@@ -15,7 +15,7 @@ The program serves to simply provide information about orbiting asteroids in a s
 ## 1.0 Introduction
 ### 1.1 Document Purpose
 Document serves to give the reader a basic idea behind this application as well as to provide specific information about the features and requirements of the application.
-### 1.2 Conventions & Explenations
+### 1.2 Conventions & Explanations
 Keywords that need an extra explenation and/or specification are highlighted in **bold** text and are specified below:
 
 **NASA's Asteroids - NeoWs API** - A publicly available API provided by NASA for the purpose of obtaining information about asteroids.
@@ -39,9 +39,9 @@ In the first version the **UI** is as simplistic as possible, with the applicati
 
 ## 3.0 Feature Overview
 ### 3.1 Main Menu
-As mentioned above, in this version the main menu only offers one option, that is to show all the asteroids orbiting earth as provided by the **NeoWs API**.
+As mentioned above, in this version the main menu only offers one option, that is to show all the asteroids orbiting Earth as provided by the **NeoWs API**.
 ### 3.2 Asteroid Page
-Displays all asteroids orbiting earth sorted by wheter or not they are pottentialy dangerous or not. Each can be tapped to display additional information.
+Displays all asteroids orbiting Earth sorted by wheter or not they are pottentialy dangerous or not. Each can be tapped to display additional information.
 ### 3.3 Specific Asteroid Overview
 When a desired asteroid is tapped a page with additional information is displayed, showing a list of transpired and predicted close approaches aswell as information about each of these aproaches.
 
