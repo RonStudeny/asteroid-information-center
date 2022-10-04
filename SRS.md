@@ -11,7 +11,7 @@ studeny.ro.2019@skola.ssps.cz
 ronstudeny@gmail.com
 
 ### Summary:
-The program serves to simply provide information about orbiting asteroids in a simplistic way. It is a mobile application, that'll be initially supported only on Android OS.
+The program serves to simply provide information about orbiting asteroids in a simplistic way. It is a mobile application, that's initially supported only on Android OS.
 ## 1.0 Introduction
 ### 1.1 Document Purpose
 Document serves to give the reader a basic idea behind this application as well as to provide specific information about the features and requirements of the application.
@@ -35,7 +35,7 @@ Software is designed for an average user. No special knowledge is required to op
 ### 2.3 Software Enviromnent
 The app is developed in **Xamarin Forms** and, as already mentioned, uses **NeoWs API** to get the necesseary information.   
 ### 2.4 User Interface
-In the first version the **UI** will be as simplistic as possible, with the application only offering a button to display asteroids in orbit around Earth. Basic navigation system is always available for future convinience and easier implementation.
+In the first version the **UI** is as simplistic as possible, with the application only offering a button to display asteroids in orbit around Earth. Basic navigation system using a shell menu is always available for future convinience and ease of implementation.
 
 ## 3.0 Feature Overview
 ### 3.1 Main Menu
