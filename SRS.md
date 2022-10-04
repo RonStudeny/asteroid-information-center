@@ -17,14 +17,15 @@ The program serves to simply provide information about orbiting asteroids in a s
 Document serves to give the reader a basic idea behind this application as well as to provide specific information about the features and requirements of the application.
 ### 1.2 Conventions & Explenations
 Keywords that need an extra explenation and/or specification are highlighted in **bold** text and are specified below:
+
 **NASA's Asteroids - NeoWs API** - A publicly available API provided by NASA for the purpose of obtaining information about asteroids.
-**Xamarin Forms** - Microsoft provided open source framework for native UIs
+
+**Xamarin Forms** - Microsoft provided open source framework for building native UIs
+
 **UI** - User interface. A way for the user to interact with the app.
-**
+
 ### 1.3 Document Dedicated To
 This document is dedicated to my app development teacher Ing. Pavel Švec or to anyone unfortunate enough to have stumbled upon this on my profile.
-### 1.4 Disclaimer
-This document serves only as a demonstration and may contain inaccurate information.
 
 ## 2.0 Overall Description
 ### 2.1 About Software 
