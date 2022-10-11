@@ -38,3 +38,5 @@ The first sorting phase the aplication goes through is the planets. Each planet,
 Upon Selecting a planet a list of orbiting ateroids is displayed and is sorted by whether or not they are potentially dangerous. 
 ### 3.4 Specific Asteroid Overview
 Each Asteroid can be tapped to reveal additional information about the specific asteroid, such as: transpired and predicted close approaches, estimated mass, estimated magnitude etc.
+### 3.5 Data Handling
+Requested data is saved in the form of a .json file and with each new request is overwirtten. This is done, so that if the internet isn't available or the request fails for whatever reason, the app still has somewhere to pull data from 
