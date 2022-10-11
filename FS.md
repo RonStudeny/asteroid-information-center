@@ -3,7 +3,7 @@
 ### Version:
 0.1
 ### Date created:
-10. 10. 2022
+10.10. 2022
 ### Author:
 Ron Studený 4.C SSPŠaG
 ### Contact:
