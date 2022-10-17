@@ -32,11 +32,15 @@ The project will not include a search engine, to search for a specific asteroid,
 ## 3.0 App Architecture
 ### 3.1 Application Flow
 The user is greeted by a main menu with the selection of planets in our solar system. Upon taping the desired planet, a list of asteroids orbiting the said planet is displayed, with the information provided by a request from the **NeoWs API** or data from the last succesful request, in the event of failure.
+![This is an image](https://cdn.discordapp.com/attachments/816343472776806452/1031654164410945647/Hlavni_menu.png)
 ### 3.2 Primary Sorting
 The first sorting phase the aplication goes through is the planets. Each planet, with available information about them is displayed in the first interaction the user goes through.
 ### 3.3 Secondary Sorting
-Upon Selecting a planet a list of orbiting ateroids is displayed and is sorted by whether or not they are potentially dangerous. 
+Upon Selecting a planet a list of orbiting ateroids is displayed and is sorted by whether or not they are potentially dangerous.
+![This is an image](https://media.discordapp.net/attachments/816343472776806452/1031658067210805332/Specific_planet.png)
 ### 3.4 Specific Asteroid Overview
 Each Asteroid can be tapped to reveal additional information about the specific asteroid, such as: transpired and predicted close approaches, estimated mass, estimated magnitude etc.
+![This is an image](https://cdn.discordapp.com/attachments/816343472776806452/1031667849078522028/Specific_asteroid.png)
 ### 3.5 Data Handling
-Requested data is saved in the form of a .json file and with each new request is overwirtten. This is done, so that if the internet isn't available or the request fails for whatever reason, the app still has somewhere to pull data from 
+Requested data is saved in the form of a .json file and with each new request is overwirtten. This is done, so that if the internet isn't available or the request fails for whatever reason, the app still has somewhere to pull data from.
+![This is an image](https://cdn.discordapp.com/attachments/816343472776806452/1031672116640239647/flow_chart.png)
