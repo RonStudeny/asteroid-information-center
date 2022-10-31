@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "MPraF3x4W5TZX8IfCw1QyL0OyiJ5f+K1PaQeMaKzay2ARWEDosWGpYiy4WQBAtsnzCMfPNK3vK8mWJDc244peA==",
+  "success": true,
+  "projectFilePath": "D:\\VS Projects\\Asteroid Information Center\\Asteroid Information Center\\Asteroid Information Center.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ronst\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ronst\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ronst\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ronst\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ronst\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
