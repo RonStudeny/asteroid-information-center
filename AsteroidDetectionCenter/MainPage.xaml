@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AsteroidDetectionCenter.MainPage">
+
+    <StackLayout>
+        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <ListView x:Name="PlanetListView" ItemTapped="PlanetListView_ItemTapped" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" BackgroundColor="AliceBlue">
+                            <Label Text="{Binding Name}" VerticalOptions="Center" Style="{StaticResource PlanetLabel}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="ExitButton" Text="EXIT" Clicked="ExitButton_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
