@@ -15,6 +15,7 @@ namespace AsteroidDetectionCenter
     {
         public MainPage()
         {
+            UpdateData();
             InitializeComponent();
             PlanetListView.ItemsSource = DataHandler.AvailablePlanets();
         }
@@ -30,7 +31,7 @@ namespace AsteroidDetectionCenter
         public void UpdateData()
         {
             DataProvider.RequestAndCache("https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=L9vfqrahov8zQo4YayXOF8mhV3dvpqv5OQlth1Vv", new HttpClient());
-            PlanetListView.ItemsSource = DataHandler.AvailablePlanets();
+          //  PlanetListView.ItemsSource = DataHandler.AvailablePlanets();
         }
 
         protected async override void OnAppearing()
