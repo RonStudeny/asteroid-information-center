@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "34169bca-aca7-42ef-9c58-270acb313ace": {
+      "ProjectGuid": "34169bca-aca7-42ef-9c58-270acb313ace",
+      "DisplayName": "AsteroidDetectionCenter",
+      "ColorIndex": 0
+    },
+    "d80628d3-f8aa-4004-9650-d1159a9ddd1c": {
+      "ProjectGuid": "d80628d3-f8aa-4004-9650-d1159a9ddd1c",
+      "DisplayName": "AsteroidDetectionCenter.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

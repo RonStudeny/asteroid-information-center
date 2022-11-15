@@ -1,0 +1,17 @@
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\bin\Debug\netstandard2.0\AsteroidDetectionCenter.deps.json
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\bin\Debug\netstandard2.0\AsteroidDetectionCenter.dll
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\bin\Debug\netstandard2.0\ref\AsteroidDetectionCenter.dll
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\bin\Debug\netstandard2.0\AsteroidDetectionCenter.pdb
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\AsteroidDetectionCenter.csproj.AssemblyReference.cache
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\AsteroidDetectionCenter.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\AsteroidDetectionCenter.AssemblyInfoInputs.cache
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\AsteroidDetectionCenter.AssemblyInfo.cs
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\AsteroidDetectionCenter.csproj.CoreCompileInputs.cache
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\XamlC.stamp
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\AsteroidDetectionCenter.dll
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\ref\AsteroidDetectionCenter.dll
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\AsteroidDetectionCenter.pdb
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\Views\AsteroidPage.xaml.g.cs
+D:\VS Projects\AsteroidDetectionCenter\AsteroidDetectionCenter\obj\Debug\netstandard2.0\Views\PlanetPage.xaml.g.cs

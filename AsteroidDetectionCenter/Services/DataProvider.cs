@@ -15,8 +15,8 @@ namespace AsteroidDetectionCenter.Services
     {
         public static async Task RequestAndCache(string url, HttpClient httpClient)
         {
-            try
-            {
+            //try
+       //     {
                 HttpResponseMessage httpResponseMessage = await httpClient.GetAsync(url);
                 httpResponseMessage.EnsureSuccessStatusCode();
                 var json = await httpResponseMessage.Content.ReadAsStringAsync();
@@ -26,24 +26,22 @@ namespace AsteroidDetectionCenter.Services
                 IFile file = await folder.CreateFileAsync("CachedData.json", CreationCollisionOption.ReplaceExisting);
                 await file.WriteAllTextAsync(json);
                 
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-                // inform the user that the data has failed to refresh
-            }
+           // }
+            //catch (Exception ex)
+            //{
+            //    Debug.WriteLine(ex.Message);
+            //    // inform the user that the data has failed to refresh
+            //}
 
         }
 
 
-        public static async Task<Rootobject> DeserializeData(string path = @"")
+        public static async Task<Rootobject> DeserializeData(string path = @"Cache/CachedData.json")
         {
-
-            var json = File.ReadAllText(path);
-
             IFile file = await FileSystem.Current.GetFileFromPathAsync(path);
-
+            var json = await file.ReadAllTextAsync();
             Rootobject data = JsonConvert.DeserializeObject<Rootobject>(json);
+
             return data;
         }
     }
