@@ -17,7 +17,6 @@ namespace AsteroidDetectionCenter
         {
             UpdateData();
             InitializeComponent();
-            PlanetListView.ItemsSource = DataHandler.AvailablePlanets();
         }
 
         private void ExitButton_Clicked(object sender, EventArgs e) => Application.Current.Quit();
@@ -28,10 +27,11 @@ namespace AsteroidDetectionCenter
             Navigation.PushAsync(new PlanetPage(PlanetListView.SelectedItem as string), true);
         }
 
-        public void UpdateData()
+        public async void UpdateData()
         {
-            DataProvider.RequestAndCache("https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=L9vfqrahov8zQo4YayXOF8mhV3dvpqv5OQlth1Vv", new HttpClient());
-          //  PlanetListView.ItemsSource = DataHandler.AvailablePlanets();
+            await DataProvider.RequestAndCache("https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=L9vfqrahov8zQo4YayXOF8mhV3dvpqv5OQlth1Vv", new HttpClient());
+            DataHandler.Data = await DataProvider.DeserializeData();
+            PlanetListView.ItemsSource = DataHandler.AvailablePlanets();
         }
 
         protected async override void OnAppearing()

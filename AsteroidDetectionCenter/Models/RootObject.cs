@@ -6,7 +6,7 @@ namespace AsteroidDetectionCenter.Models
 {
     public class Rootobject
     {
-        public static Near_Earth_Objects[] near_earth_objects { get; set; }
+        public Near_Earth_Objects[] near_earth_objects { get; set; }
     }
 
     public class Near_Earth_Objects

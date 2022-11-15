@@ -4,7 +4,7 @@
              x:Class="AsteroidDetectionCenter.Views.PlanetPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Planet page kys!"
+            <Label Text="{Binding Title}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
