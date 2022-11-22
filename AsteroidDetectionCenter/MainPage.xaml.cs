@@ -15,11 +15,10 @@ namespace AsteroidDetectionCenter
     {
         public MainPage()
         {
-            UpdateData();
             InitializeComponent();
         }
 
-        private void ExitButton_Clicked(object sender, EventArgs e) => Application.Current.Quit();
+        private void ExitButton_Clicked(object sender, EventArgs e) => DependencyService.Get<IFileService>().CreateFile("KYS");
 
 
         private void PlanetListView_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -27,7 +26,7 @@ namespace AsteroidDetectionCenter
             Navigation.PushAsync(new PlanetPage(PlanetListView.SelectedItem as string), true);
         }
 
-        public async void UpdateData()
+        public async Task UpdateData()
         {
             await DataProvider.RequestAndCache("https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=L9vfqrahov8zQo4YayXOF8mhV3dvpqv5OQlth1Vv", new HttpClient());
             DataHandler.Data = await DataProvider.DeserializeData();
@@ -37,7 +36,7 @@ namespace AsteroidDetectionCenter
         protected async override void OnAppearing()
         {
             base.OnAppearing();
-
+            await UpdateData();
         }
     }
 }

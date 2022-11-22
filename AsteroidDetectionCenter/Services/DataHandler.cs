@@ -1,6 +1,7 @@
 ﻿using AsteroidDetectionCenter.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace AsteroidDetectionCenter.Services
@@ -10,10 +11,10 @@ namespace AsteroidDetectionCenter.Services
         public static Rootobject Data { get; set; }
 
 
-        public static HashSet<string> AvailablePlanets()
+        public static ObservableCollection<string> AvailablePlanets()
         {
             List<string> res = new List<string>();
-            HashSet<string> planets = new HashSet<string>();
+            ObservableCollection<string> planets = new ObservableCollection<string>();
 
             foreach (var asteroids in Data.near_earth_objects)
                 foreach (var data in asteroids.close_approach_data)

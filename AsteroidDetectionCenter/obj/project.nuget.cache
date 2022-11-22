@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NlHRqrvaYejiAxKNLVXzlxY9v/T3MYJikBGe80B09iNX4B+CdrS6xwmOmMwF8VQHLnULtMbQLjybhy9W3sm63g==",
+  "dgSpecHash": "XDIjhzBwBiQSOge5EY6yyM7DModF7BbS9wLVC5KAgkMMt1vhyl6O5eHgTaMSEe5jxSVHCAPfq4XqczheLaJ4lg==",
   "success": true,
   "projectFilePath": "D:\\VS Projects\\AsteroidDetectionCenter\\AsteroidDetectionCenter\\AsteroidDetectionCenter.csproj",
   "expectedPackageFiles": [
@@ -12,8 +12,8 @@
     "C:\\Users\\ronst\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ronst\\.nuget\\packages\\pclstorage\\1.0.2\\pclstorage.1.0.2.nupkg.sha512",
     "C:\\Users\\ronst\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\ronst\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\ronst\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\ronst\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
+    "C:\\Users\\ronst\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512"
   ],
   "logs": [
     {

@@ -1,4 +1,5 @@
 ﻿using AsteroidDetectionCenter.Models;
+using AsteroidDetectionCenter.Services;
 using Newtonsoft.Json;
 using PCLStorage;
 using System;
@@ -8,6 +9,7 @@ using System.IO;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace AsteroidDetectionCenter.Services
 {
@@ -21,11 +23,14 @@ namespace AsteroidDetectionCenter.Services
                 httpResponseMessage.EnsureSuccessStatusCode();
                 var json = await httpResponseMessage.Content.ReadAsStringAsync();
 
-                IFolder rootFolder = FileSystem.Current.LocalStorage;
-                IFolder folder = await rootFolder.CreateFolderAsync("Cache", CreationCollisionOption.OpenIfExists);
-                IFile file = await folder.CreateFileAsync("CachedData.json", CreationCollisionOption.ReplaceExisting);
-                await file.WriteAllTextAsync(json);
-                
+                //IFolder rootFolder = FileSystem.Current.LocalStorage;
+                //IFolder folder = await rootFolder.CreateFolderAsync("Cache", CreationCollisionOption.OpenIfExists);
+                //IFile file = await folder.CreateFileAsync("CachedData.json", CreationCollisionOption.ReplaceExisting);
+                //await file.WriteAllTextAsync(json);
+
+
+
+            
            // }
             //catch (Exception ex)
             //{
